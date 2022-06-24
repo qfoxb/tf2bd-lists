@@ -7,6 +7,5 @@
 		"description": "Milenko's recommended cumulative playerlist",
 		"title": "Milenko's cumulative list",
 		"update_url": "https://raw.githubusercontent.com/qfoxb/tf2bd-lists/main/updateLists/playerlist.milenko-cumulative.json"
-	},
-	"players": []
+	}
 }
