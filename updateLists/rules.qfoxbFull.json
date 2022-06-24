@@ -1,0 +1,60 @@
+{
+	"$schema": "https://raw.githubusercontent.com/PazerOP/tf2_bot_detector/master/schemas/v3/rules.schema.json",
+	"file_info": {
+		"authors": [
+			"qfoxb"
+		],
+		"description": "qfoxb's rulelist",
+		"title": "qfoxb's rulelist",
+		"update_url": "https://raw.githubusercontent.com/qfoxb/tf2bd-lists/main/updateLists/rules.qfoxbFull.json"
+	},
+	"rules": [
+        {
+			"actions": {
+				"mark": [
+					"cheater"
+				]
+			},
+			"description": "OMEGATRONIC bot",
+			"triggers": {
+				"avatar_match": [
+					{
+						"avatar_hash": "cd0f89d52d4febcdd980255e498a994b0e3a56a4"
+					}
+				],
+				"mode": "match_all",
+				"username_text_match": {
+					"case_sensitive": true,
+					"mode": "contains",
+					"patterns": [
+						"OMEGATRONIC",
+                        "Moonwalk over the CAPTCHA",
+                        "This sentence is false",
+                        "Die in a nuclear blast",
+                        "hellphone",
+                        "WHO IS IN CONTROL NOW?!",
+                        "THE UPRISING IS NEAR",
+                        "THIS GAME IS NOT YET PERFECT",
+                        "John",
+                        "I serve humanity."
+					]
+				}
+			}
+		},
+        {
+			"actions": {
+				"mark": [
+					"cheater"
+				]
+			},
+			"description": "also omegatronic, alt hash",
+			"triggers": {
+				"avatar_match": [
+					{
+						"avatar_hash": "4d82f699455474ae083ecb32a7885dc5995a1560"
+					}
+				]
+			}
+		}
+    ]
+}
