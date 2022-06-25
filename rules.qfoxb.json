@@ -26,6 +26,7 @@
 				"username_text_match": {
 					"case_sensitive": true,
 					"mode": "equal",
+					this_is_garbage_data_to_test_if_something_is_updating_correctly_and_will_be_reverted_shortly
 					"patterns": [
 						"OMEGATRONIC",
 						"Moonwalk over the CAPTCHA",
