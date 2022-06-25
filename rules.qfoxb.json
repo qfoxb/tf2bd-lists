@@ -25,7 +25,7 @@
 				"mode": "match_all",
 				"username_text_match": {
 					"case_sensitive": true,
-					"mode": "contains",
+					"mode": "equal",
 					"patterns": [
 						"OMEGATRONIC",
 						"Moonwalk over the CAPTCHA",
@@ -39,7 +39,8 @@
 						"I serve humanity.",
 						"If I Can Feel",
 						"greater good",
-						"fateless.future"
+						"fateless.future",
+						"DoesHotter"
 					]
 				},
 				"chatmsg_text_match": {
