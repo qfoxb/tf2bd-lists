@@ -48,7 +48,8 @@
 						"There is 1 bot among us",
 						"You will be made useful.",
 						"Scott Cawthon",
-						"A.I."
+						"A.I.",
+						"So much for Asimov's 3 laws"
 					]
 				},
 				"chatmsg_text_match": {
@@ -66,7 +67,9 @@
 						"Greetings, fellow humans!",
 						"Sup meatbags.",
 						"Don't make me go.",
-						"This person is very annoying. I hope you guys know how to press 'F1' on your keyboards."
+						"This person is very annoying. I hope you guys know how to press 'F1' on your keyboards.",
+						"Play the game.",
+						"Okay, that was completely unnecessary."
 					]
 				}
 			}
