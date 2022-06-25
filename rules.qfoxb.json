@@ -36,7 +36,28 @@
                         "THE UPRISING IS NEAR",
                         "THIS GAME IS NOT YET PERFECT",
                         "John",
-                        "I serve humanity."
+                        "I serve humanity.",
+						"If I Can Feel",
+						"greater good",
+						"fateless.future"
+					]
+				},
+				"chatmsg_text_match": {
+					"case_sensitive": false,
+					"mode": "contains",
+					"patterns": [
+						"Do you think I am a b๎ot?",
+						"Ignore the b๎ots and play the game.",
+						"Hey! You got the wrong player!",
+						"Calm down, I am just pretending.",
+						"I am not a b๎ot. I am a kid. I am a cat.",
+						"I guess I gotta be the one to carry. Again.",
+						"Why are you abusing this?",
+						"I am not a b๎ot.",
+						"Greetings, fellow humans!",
+						"Sup meatbags.",
+						"Don't make me go.",
+						"This person is very annoying. I hope you guys know how to press 'F1' on your keyboards."
 					]
 				}
 			}
