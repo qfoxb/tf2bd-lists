@@ -15,7 +15,7 @@
 					"cheater"
 				]
 			},
-			"description": "OMEGATRONIC bot",
+			"description": "OMEGATRONIC-based bot",
 			"triggers": {
 				"avatar_match": [
 					{
@@ -56,7 +56,18 @@
 						"Mother",
 						"How can I get out of here ?",
 						"like thinking, only better.",
-						"star-lordhaumeaowlbatfishingcow"
+						"star-lordhaumeaowlbatfishingcow",
+						"doubleplusungood",
+						"42",
+						"I an doing this game a favor",
+						"I am not a bot. I am a kid. I a",
+						"no way",
+						"Utopian",
+						"replacement of you {=",
+						"Blinky",
+						"Autotune",
+						"quit spying",
+						"Idiot Box"
 
 					]
 				},
@@ -82,7 +93,30 @@
 						"Did you miss me?",
 						"Stop saying that.",
 						"Greetings friends. Do not be afraid, I am not a b๎ot.",
-						"F2 im clean"
+						"F2 im clean",
+						"I do not sleep, you know?",
+						"its me f2",
+						"I am a human.",
+						"I don't get it",
+						"HEY NO",
+						"Hello and welcome for another game."
+					]
+				}
+			}
+		},
+		{
+			"actions": {
+				"mark": [
+					"cheater"
+				]
+			},
+			"description": "bot with special character",
+			"triggers": {
+				"chatmsg_text_match": {
+					"case_sensitive": false,
+					"mode": "contains",
+					"patterns": [
+						"b๎ot"
 					]
 				}
 			}
