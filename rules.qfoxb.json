@@ -22,7 +22,9 @@
 						"avatar_hash": "cd0f89d52d4febcdd980255e498a994b0e3a56a4",
 						"avatar_hash": "4d82f699455474ae083ecb32a7885dc5995a1560",
 						"avatar_hash": "010b8256174e0e8bccc6feb62befa3700aa30c6f",
-						"avatar_hash": "7dadf03adf14b6bfffb0406df98ba3e256a60959"
+						"avatar_hash": "7dadf03adf14b6bfffb0406df98ba3e256a60959",
+						"avatar_hash": "e34058117f1b0cbe8a07c4ac08554225b36c05da",
+						"avatar_hash": "bbcda3f796fb5af1a1bbf54d633b8f0d0b8f6524"
 						
 					}
 				],
@@ -50,7 +52,10 @@
 						"Scott Cawthon",
 						"A.I.",
 						"So much for Asimov's 3 laws",
-						"gamer robot"
+						"gamer robot",
+						"Mother",
+						"How can I get out of here ?",
+						"like thinking, only better."
 					]
 				},
 				"chatmsg_text_match": {
