@@ -3293,6 +3293,125 @@
 				"time": 1656111647
 			},
 			"steamid": "[U:1:912093241]"
+		},
+		{
+			"attributes": [
+				"cheater"
+			],
+			"last_seen": {
+				"player_name": "There is 1 bot among us",
+				"time": 1656394716
+			},
+			"steamid": "[U:1:1184562789]"
+		},
+		{
+			"attributes": [
+				"cheater"
+			],
+			"last_seen": {
+				"player_name": "Scott Cawthon",
+				"time": 1656390518
+			},
+			"steamid": "[U:1:1188797888]"
+		},
+		{
+			"attributes": [
+				"cheater"
+			],
+			"last_seen": {
+				"player_name": "Kevin",
+				"time": 1656390425
+			},
+			"steamid": "[U:1:1204636437]"
+		},
+		{
+			"attributes": [
+				"cheater"
+			],
+			"last_seen": {
+				"player_name": "A.I.",
+				"time": 1656394221
+			},
+			"steamid": "[U:1:1204765414]"
+		},
+		{
+			"attributes": [
+				"cheater"
+			],
+			"last_seen": {
+				"player_name": "42",
+				"time": 1656394110
+			},
+			"steamid": "[U:1:1253802816]"
+		},
+		{
+			"attributes": [
+				"cheater"
+			],
+			"last_seen": {
+				"player_name": "Always learning. Always.",
+				"time": 1656394294
+			},
+			"steamid": "[U:1:1254880893]"
+		},
+		{
+			"attributes": [
+				"cheater"
+			],
+			"last_seen": {
+				"player_name": "www.myg0t.win",
+				"time": 1656247287
+			},
+			"steamid": "[U:1:299414116]"
+		},
+		{
+			"attributes": [
+				"cheater"
+			],
+			"last_seen": {
+				"player_name": "There is 1 bot among us",
+				"time": 1656120034
+			},
+			"steamid": "[U:1:1184562789]"
+		},
+		{
+			"attributes": [
+				"cheater"
+			],
+			"last_seen": {
+				"player_name": "You will be made useful.",
+				"time": 1656122922
+			},
+			"steamid": "[U:1:1187638538]"
+		},
+		{
+			"attributes": [
+				"cheater"
+			],
+			"last_seen": {
+				"player_name": "THE UPRISING IS NEAR",
+				"time": 1656111353
+			},
+			"steamid": "[U:1:1253837358]"
+		},
+		{
+			"attributes": [
+				"cheater"
+			],
+			"last_seen": {
+				"time": 1656111391
+			},
+			"steamid": "[U:1:1254415394]"
+		},
+		{
+			"attributes": [
+				"cheater"
+			],
+			"last_seen": {
+				"player_name": "THIS GAME IS NOT YET PERFECT",
+				"time": 1656111267
+			},
+			"steamid": "[U:1:1254452038]"
 		}
 	]
 }
