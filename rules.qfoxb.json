@@ -73,13 +73,18 @@
 						"VHS",
 						"Kevin",
 						"Always learning. Always.",
-						"=}"
+						"=}",
+						"Cosmos Super-computer",
+						"i1ozdroidte",
+						"Retrowave Sunset",
+						"HELLO KATIE !",
+						"Hasta La Vista, Baby."
 
 					]
 				},
 				"chatmsg_text_match": {
 					"case_sensitive": false,
-					"mode": "contains",
+					"mode": "equal",
 					"patterns": [
 						"Do you think I am a b๎ot?",
 						"Ignore the b๎ots and play the game.",
