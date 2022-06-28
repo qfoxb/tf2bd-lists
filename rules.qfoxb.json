@@ -28,7 +28,6 @@
 						
 					}
 				],
-				"mode": "match_all",
 				"username_text_match": {
 					"case_sensitive": true,
 					"mode": "contains",
@@ -70,37 +69,11 @@
 						"Idiot Box",
 						"CAN'T STOP. WON'T STOP.",
 						"There just me",
-						"VHS"
+						"VHS",
+						"Kevin"
 
 					]
-				}
-			}
-		},
-		{
-			"actions": {
-				"mark": [
-					"cheater"
-				]
-			},
-			"description": "bot with special character",
-			"triggers": {
-				"chatmsg_text_match": {
-					"case_sensitive": false,
-					"mode": "contains",
-					"patterns": [
-						"b๎ot"
-					]
-				}
-			}
-		},
-		{
-			"actions": {
-				"mark": [
-					"cheater"
-				]
-			},
-			"description": "OMEGATRONIC Messages",
-			"triggers": {
+				},
 				"chatmsg_text_match": {
 					"case_sensitive": false,
 					"mode": "contains",
@@ -130,9 +103,43 @@
 						"I don't get it",
 						"HEY NO",
 						"Hello and welcome for another game.",
-						"No, no, no, no, no, no, no, no. Please press 'F2' on your keyboard."
+						"No, no, no, no, no, no, no, no. Please press 'F2' on your keyboard.",
+						"I play every day and every night."
 					]
 				}
+			}
+		},
+		{
+			"actions": {
+				"mark": [
+					"cheater"
+				]
+			},
+			"description": "bot with special character",
+			"triggers": {
+				"chatmsg_text_match": {
+					"case_sensitive": false,
+					"mode": "contains",
+					"patterns": [
+						"b๎ot"
+					]
+				}
+			}
+		},
+		{
+			"actions": {
+				"mark": [
+					"cheater"
+				]
+			},
+			"description": "discord ad profile picture",
+			"triggers": {
+				"avatar_match": [
+					{
+						"avatar_hash": "48379932708d568c739d3cd25784fea15440f010",
+						"avatar_hash": "01f032fa76e876efef52ef2cebd984bf3b0015af"
+					}
+				]
 			}
 		}
     ]
