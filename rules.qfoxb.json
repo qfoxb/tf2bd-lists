@@ -29,7 +29,7 @@
 					}
 				],
 				"username_text_match": {
-					"case_sensitive": true,
+					"case_sensitive": false,
 					"mode": "contains",
 					"patterns": [
 						"OMEGATRONIC",
