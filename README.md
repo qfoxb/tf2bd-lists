@@ -1,6 +1,6 @@
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fqfoxb%2Ftf2bd-lists&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com) [![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0) <a href="https://github.com/qfoxb/tf2bd-lists/graphs/contributors" alt="Contributors"><img src="https://img.shields.io/github/contributors/qfoxb/tf2bd-lists"/></a>
 ## 
-<p align="center">  <a href="https://github.com/qfoxb/tf2bd-listsr">
+<p align="center">  <a href="https://github.com/qfoxb/tf2bd-lists">
     <img src="https://github.com/qfoxb/tf2bd-lists/raw/main/assets/img/robot-face_1f916.png" alt="Logo" width="100" height="100">
   </a>     
   
