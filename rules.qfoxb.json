@@ -78,7 +78,10 @@
 						"i1ozdroidte",
 						"Retrowave Sunset",
 						"HELLO KATIE !",
-						"Hasta La Vista, Baby."
+						"Hasta La Vista, Baby.",
+						"First TF2 then the entire world",
+						"Don't Tattle On Me!",
+						"novadarkmatter" 
 
 					]
 				},
@@ -112,7 +115,12 @@
 						"HEY NO",
 						"Hello and welcome for another game.",
 						"No, no, no, no, no, no, no, no. Please press 'F2' on your keyboard.",
-						"I play every day and every night."
+						"I play every day and every night.",
+						"Let's play another match.",
+						"I'm just pretending.",
+						"Please, press 'F2' on your keyboard. Thank you for your cooperation."
+
+
 					]
 				}
 			}
@@ -171,6 +179,27 @@
 						"youtu.be/",
 						"shoppy.gg",
 						"DISCORD.GG/"
+					]
+				}
+			}
+		},
+		{
+			"actions": {
+				"mark": [
+					"cheater"
+				]
+			},
+			"description": "cathook bots",
+			"triggers": {
+				"chatmsg_text_match": {
+					"case_sensitive": false,
+					"mode": "contains",
+					"patterns": [
+						"DONT TRY TO RESIST!",
+						"DONT TRY TO FIGHT BACK!",
+						"LEAVE THE SERVER!",
+						"QUIT TF2 AND UNINSTALL THE GAME!",
+						"SUBMIT TO YOUR CATBOT MASTERS!"
 					]
 				}
 			}
