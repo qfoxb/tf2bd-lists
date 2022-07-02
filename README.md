@@ -12,6 +12,8 @@ A repository that hosts lists for the [Team Fortress 2 Bot Detector](https://bot
 ![script](./assets/img/script.png)[qfoxb's playerlist](https://github.com/qfoxb/tf2bd-lists/raw/main/playerlist.qfoxb.json) - A list of known bots/cheaters/racists   
 ![script](./assets/img/script.png)[qfoxb's rulelist](https://raw.githubusercontent.com/qfoxb/tf2bd-lists/main/rules.qfoxb.json) - A list of rules that catch a lot of bots automatically   
 ![script](./assets/img/link_break.png)[Milenko's playerlist](https://raw.githubusercontent.com/qfoxb/tf2bd-lists/main/playerlist.milenko.json) - A mirror of a list that has users that have used "Cathook", a cheat client
+## Disclaimer
+The rulelist i have created is not 100% accurate and may detect false positives. Please report these via the issues panel on this github page. It seems to catch all bots currently out but it's not yet 100% perfect.
 # Contributors
 <a href="https://github.com/qfoxb/tf2bd-lists/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=qfoxb/tf2bd-lists" />
