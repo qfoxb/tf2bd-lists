@@ -209,6 +209,24 @@
 					]
 				}
 			}
+		},
+		{
+			"actions": {
+				"mark": [
+					"cheater"
+				]
+			},
+			"description": "g0tbots",
+			"triggers": {
+				"username_text_match": {
+					"case_sensitive": false,
+					"mode": "contains",
+					"patterns": [
+						"[g0tbot]",
+						"myg0t"
+					]
+				}
+			}
 		}
     ]
 }
