@@ -195,6 +195,23 @@
 					"cheater"
 				]
 			},
+			"description": "m4gic bot",
+			"triggers": {
+				"chatmsg_text_match": {
+					"case_sensitive": false,
+					"mode": "contains",
+					"patterns": [
+						"m4gic m4gic"
+					]
+				}
+			}
+		},
+		{
+			"actions": {
+				"mark": [
+					"cheater"
+				]
+			},
 			"description": "cathook bots",
 			"triggers": {
 				"chatmsg_text_match": {
