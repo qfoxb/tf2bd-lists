@@ -1,0 +1,18 @@
+name: Validate JSONs
+
+on:
+  push:
+  pull_request:
+
+  workflow_dispatch:
+
+jobs:
+  verify-json-validation:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Validate JSON
+        uses: docker://orrosenblatt/validate-json-action:latest
+        env:
+          INPUT_SCHEMA: /updateLists/verify.schema.json
+          INPUT_JSONS: /*.json,/updateLists/playerlist.milenko-cumulative.json
