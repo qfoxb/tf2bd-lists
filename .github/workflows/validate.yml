@@ -10,9 +10,9 @@ jobs:
   verify-json-validation:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v1
       - name: Validate JSON
-        uses: OrRosenbaltt/validate-json-action@0.1.0
-        env:
-          INPUT_SCHEMA: /updateLists/verify.schema.json
-          INPUT_JSONS: /*.json,/updateLists/playerlist.milenko-cumulative.json
+        uses: nhalstead/validate-json-action@0.1.3
+        with:
+          schema: /updateLists/verify.schema.json
+          jsons: /*.json,/updateLists/playerlist.milenko-cumulative.json
