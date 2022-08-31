@@ -1,0 +1,70 @@
+{
+	"$schema": "http://json-schema.org/draft-07/schema#",
+	"$id": "https://raw.githubusercontent.com/PazerOP/tf2_bot_detector/master/schemas/v3/playerlist.schema.json",
+	"title": "TF2 Bot Detector Player List Schema",
+	"type": "object",
+	"additionalProperties": false,
+	"properties": {
+		"$schema": {
+			"description": "The JSON schema to validate this file against.",
+			"type": "string"
+		},
+		"file_info": {
+			"$ref": "./shared.schema.json#/definitions/file_info"
+		},
+		"players": {
+			"description": "Players in this list",
+			"type": "array",
+			"items": {
+				"$ref": "#/definitions/tfbd_playerlist_entry"
+			}
+		}
+	},
+	"required": [
+		"$schema",
+		"players"
+	],
+	"definitions": {
+		"tfbd_playerlist_entry": {
+			"type": "object",
+			"additionalProperties": false,
+			"description": "A player entry.",
+			"properties": {
+				"steamid": {
+					"description": "The SteamID of the player.",
+					"$ref": "./shared.schema.json#definitions/steamid"
+				},
+				"attributes": {
+					"description": "Attributes applied to the player",
+					"$ref": "./shared.schema.json#/definitions/tfbd_player_attributes_array"
+				},
+				"proof": {
+					"description": "Any associated evidence. Left untouched by the tool (for now).",
+					"type": "array"
+				},
+				"last_seen": {
+					"type": "object",
+					"additionalProperties": false,
+					"description": "Information about the last time this player was seen.",
+					"properties": {
+						"player_name": {
+							"description": "The name this player had the last time they were seen.",
+							"type": "string"
+						},
+						"time": {
+							"description": "The time this player was last seen.",
+							"type": "integer"
+						}
+					},
+					"required": [
+						"time"
+					]
+				}
+			},
+			"required": [
+				"steamid",
+				"attributes"
+			]
+		}
+	}
+}
