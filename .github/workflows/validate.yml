@@ -12,7 +12,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: Validate JSON
-        uses: docker://orrosenblatt/validate-json-action:latest
+        uses: OrRosenbaltt/validate-json-action@0.1.0
         env:
           INPUT_SCHEMA: /updateLists/verify.schema.json
           INPUT_JSONS: /*.json,/updateLists/playerlist.milenko-cumulative.json
