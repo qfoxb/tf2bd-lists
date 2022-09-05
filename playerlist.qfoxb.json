@@ -3856,6 +3856,16 @@
 			"attributes": [
 				"cheater"
 			]
+		},
+		{
+			"attributes": [
+				"cheater"
+			],
+			"last_seen": {
+				"player_name": "doeshotter",
+				"time": 1662399925
+			},
+			"steamid": "[U:1:1424460922]"
 		}
 	]
 }
