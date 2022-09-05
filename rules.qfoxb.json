@@ -70,7 +70,6 @@
 						"CAN'T STOP. WON'T STOP.",
 						"There just me",
 						"VHS",
-						"Kevin",
 						"Always learning. Always.",
 						"=}",
 						"Cosmos Super-computer",
@@ -253,6 +252,24 @@
 					"patterns": [
 						"[g0tbot]",
 						"myg0t"
+					]
+				}
+			}
+		},
+		{
+			"actions": {
+				"mark": [
+					"racist"
+				]
+			},
+			"description": "racist bots",
+			"triggers": {
+				"username_text_match": {
+					"case_sensitive": false,
+					"mode": "contains",
+					"patterns": [
+						"N\u2148",
+						"[VALVE] N"
 					]
 				}
 			}
