@@ -177,14 +177,12 @@
 					"mode": "contains",
 					"patterns": [
 						"discord.io/",
-						"discord.gg/",
 						"discord.me/",
 						"dsc.gg/",
 						"disc.gg/",
 						"youtube.com/",
 						"youtu.be/",
-						"shoppy.gg",
-						"DISCORD.GG/"
+						"shoppy.gg"
 					]
 				}
 			}
