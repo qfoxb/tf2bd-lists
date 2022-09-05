@@ -9,7 +9,7 @@
 		"update_url": "https://raw.githubusercontent.com/qfoxb/tf2bd-lists/main/rules.qfoxb.json"
 	},
 	"rules": [
-        {
+		{
 			"actions": {
 				"mark": [
 					"cheater"
@@ -28,7 +28,7 @@
 						"avatar_hash": "c06c5badf4fa391b4ab642099c8605bdb80b3c43"
 					}
 				],
-				"mode":"match_any",
+				"mode": "match_any",
 				"username_text_match": {
 					"case_sensitive": false,
 					"mode": "equal",
@@ -84,7 +84,6 @@
 						"Please make me a real boy?",
 						"roger roger",
 						"🤖"
-
 					]
 				},
 				"chatmsg_text_match": {
@@ -125,8 +124,6 @@
 						"You are not very original, you know?",
 						"You are a b๎ot.",
 						"No one will miss you {="
-
-
 					]
 				}
 			}
@@ -260,5 +257,5 @@
 				}
 			}
 		}
-    ]
+	]
 }
