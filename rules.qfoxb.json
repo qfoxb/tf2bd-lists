@@ -288,6 +288,25 @@
 					]
 				}
 			}
+		},
+		{
+			"actions": {
+				"mark": [
+					"cheater"
+				]
+			},
+			"description": "a few 2023 bots - could result in false positives, please report on github if found",
+			"triggers": {
+				"username_text_match": {
+					"case_sensitive": false,
+					"mode": "contains",
+					"patterns": [
+						"Noelle Gaming",
+						"Foresst",
+						"Vivernia"
+					]
+				}
+			}
 		}
 	]
 }
